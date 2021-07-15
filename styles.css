@@ -33,4 +33,15 @@ h1{
     border: 3px solid black;
     margin-left: 350px;
     margin-right: 200px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.box{
+   
+}
+.box img{
+    width: 400px;
+    height: 300px;
 }
