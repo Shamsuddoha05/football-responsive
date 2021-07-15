@@ -29,8 +29,8 @@ h1{
 }
 .container{
     width: 1200px;
-    height: 1600px;
-    border: 3px solid black;
+    margin-top: 100px;
+    margin-bottom: 200px;
     margin-left: 350px;
     margin-right: 200px;
     display: grid;
@@ -39,9 +39,38 @@ h1{
     
 }
 .box{
-   
+   border-radius: 50%;
+   padding: 5%;
+   border-radius: 10px;
+   margin-right: 50px;
 }
 .box img{
     width: 400px;
     height: 300px;
+}
+.container-2{
+    display: flex;
+    margin-left: 350px;
+    margin-right: 200px;    
+}
+.container-2 img{
+    width: 600px;
+}
+.box-3{
+    width: 50%;
+
+}
+.container-2 a{
+    text-decoration: none;
+    color: aliceblue;
+    background-image: linear-gradient(rgb(235, 114, 134), rgb(243, 102, 231));
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+.container-3 img{
+    margin-left: 800px;
+    margin-top: 200px;
+    width: 400px;
+   
 }
